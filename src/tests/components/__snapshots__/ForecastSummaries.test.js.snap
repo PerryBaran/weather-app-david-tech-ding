@@ -12,13 +12,16 @@ exports[`ForecastSummaries renders correctly 1`] = `
       <div
         class="forecast-summary_date"
       >
-        1111111
+        Thu Jan 01 1970
       </div>
       <div
         class="forecast-summary_icon"
         data-testid="forecast-icon"
       >
-        stubIcon1
+        <img
+          alt="icon"
+          src="https://openweathermap.org/img/wn/01d@2x.png"
+        />
       </div>
       <div
         class="forecast-summary_temperature"
@@ -38,13 +41,16 @@ exports[`ForecastSummaries renders correctly 1`] = `
       <div
         class="forecast-summary_date"
       >
-        2222222
+        Thu Jan 01 1970
       </div>
       <div
         class="forecast-summary_icon"
         data-testid="forecast-icon"
       >
-        stubIcon2
+        <img
+          alt="icon"
+          src="https://openweathermap.org/img/wn/13d@2x.png"
+        />
       </div>
       <div
         class="forecast-summary_temperature"
