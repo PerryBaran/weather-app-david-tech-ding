@@ -1,4 +1,5 @@
 import React from "react";
+import "../styles/ForecastDetails.css";
 
 function ForecastDetails({ forecast }) {
   const { date, humidity, temperature, wind } = forecast;
@@ -7,11 +8,11 @@ function ForecastDetails({ forecast }) {
   return (
     <div className="forecast-details">
       <div className="forecast-details_date">{formattedDate}</div>
-      <div className="forecast-details_min-temp">
-        <strong>Min temperature:</strong> {temperature.min}&deg;C
-      </div>
       <div className="forecast-details_max-temp">
         <strong>Max temperature:</strong> {temperature.max}&deg;C
+      </div>
+      <div className="forecast-details_min-temp">
+        <strong>Min temperature:</strong> {temperature.min}&deg;C
       </div>
       <div className="forecast-details_humidity">
         <strong>Humidity:</strong> {humidity} %
