@@ -5,7 +5,9 @@ exports[`App renders the App component correctly 1`] = `
   <div
     class="weather-app"
   >
-    <h1>
+    <h1
+      class="location-details"
+    >
       Manchester, UK
     </h1>
     <div
