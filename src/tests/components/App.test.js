@@ -17,11 +17,12 @@ describe("App", () => {
     jest.spyOn(axios, "get").mockResolvedValue({
       data: forecast,
     });
-    render(<App />);
+    const { asFragment } = render(<App />);
     await waitFor(() => {
       const h1Element = screen.getByText(/Manchester, UK/i);
 
       expect(h1Element).toBeInTheDocument();
     });
+    expect(asFragment()).toMatchSnapshot();
   });
 });
