@@ -1,0 +1,8 @@
+.forecast-details{
+    text-align: center;
+    margin: 2em;
+}
+
+.forecast-details > div {
+    padding-bottom: 0.5em;
+}
